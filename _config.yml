@@ -9,37 +9,41 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: J-Hjin Dev Log # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: 꾸준하게 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://j-hjin.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: J-Hjin # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+instagram:
+  username: h_jin_104 # change to your GitHub username
+
+# twitter:
+#   username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: J-Hjin
+  email: jhjin104@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # - https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/J-Hjin # change to your GitHub homepage
+    - https://www.instagram.com/h_jin_104 # Added by J-Hjin
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -98,7 +102,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -223,3 +227,15 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# Added by J-Hjin
+jekyll_compose:
+  auto_open: true # 게시글 생성시 자동열림
+  default_front_matter:
+    posts:
+      description: #기본적으로 넣고 싶은 내용이 있으면 넣어준다.
+      category:
+      tags:
+
+plugins:
+  - jekyll-target-blank
