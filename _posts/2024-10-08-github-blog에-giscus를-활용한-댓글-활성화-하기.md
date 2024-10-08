@@ -65,6 +65,7 @@ tags: [GitHub, Jekyll, Chirpy, Blog, giscus, Comment, Discussion]
 > ## __config.yml에 추가__
 
 Chirpy 테마에서는 위에서 발급받은 scripts 태그의 내용들을 _config.yml에 알맞게 기재하여 giscus를 사용할 수 있습니다.
+Comments ➜ Provider 에 giscus를 기입합니다.
 
 ![giscus_config.png](/assets/img/posts/giscus_config.png)
 
