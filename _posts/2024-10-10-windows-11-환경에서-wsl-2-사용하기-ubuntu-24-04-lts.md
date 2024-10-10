@@ -8,13 +8,6 @@ tags: [WSL2, Ubuntu, Windows, TroubleShooting]
 ---
 <hr>
 
-> ## __WSL2 를 사용하여 Ubuntu 설치하기__
-
-Ubuntu 24.04 LTS를 Windows 11에서 사용하기 위해서는 몇가지 작업을 해 주어야 합니다.
-기존에 WSL2를 활성화 하셨거나, 사용중이신 경우에는 이 단계는 건너뛰어도 됩니다.
-
-<hr>
-
 > ## __WSL2를 위한 기능 사용 설정__
 
 powershell을 관리자 권한으로 실행시킨 후 다음 명령줄을 수행하여 Windows 하위 시스템 및 Virtual Machine 기능을 Enable 상태로 변경합니다.
