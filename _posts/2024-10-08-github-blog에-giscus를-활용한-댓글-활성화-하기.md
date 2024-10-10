@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github Blog에 giscus를 활용한 댓글 활성화 하기
-date: 2024-10-08 10:32 +0900
+date: 2024-04-17 10:32 +0900
 description: Jekyll-Chirpy로 생성한 블로그에 giscus 사용하기
 category: [GitHub, Blog]
 tags: [GitHub, Jekyll, Chirpy, Blog, giscus, Comment, Discussion]
@@ -71,5 +71,5 @@ Comments ➜ Provider 에 giscus를 기입합니다.
 
 <hr>
 
-> 오타가 발생하였거나 보완 할 부분이 있다면 댓글 남겨주시면 감사하겠습니다. 🙂
+> 보완 할 부분이 있다면 댓글 남겨주시면 감사하겠습니다. 🙂
 {: .prompt-tip }
