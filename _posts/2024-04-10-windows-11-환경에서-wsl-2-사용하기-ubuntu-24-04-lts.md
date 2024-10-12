@@ -3,7 +3,7 @@ layout: post
 title: Windows 11 환경에서 WSL 2 사용하기 - Ubuntu 24.04 LTS
 date: 2024-04-10 21:44 +0900
 description: Windows 11 환경에서 Ubuntu 24.04 LTS 사용하기
-category: [Linux]
+category: [Linux, WSL]
 tags: [WSL2, Ubuntu, Windows, TroubleShooting]
 ---
 <hr>
