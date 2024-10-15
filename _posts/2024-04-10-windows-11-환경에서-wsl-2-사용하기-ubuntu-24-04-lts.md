@@ -33,6 +33,8 @@ wsl --list --online # 온라인으로 설치 가능한 list 조회
 wsl --install -d Ubuntu-24.04 
 ```
 
+<hr>
+
 > ## __Trouble Shooting__
 
 오류 발생 시 댓글 남겨주시면 향후 추가하도록 하겠습니다.
