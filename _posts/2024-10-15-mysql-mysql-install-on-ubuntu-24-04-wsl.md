@@ -54,7 +54,7 @@ select version();
 이후 root가 아닌 사용자 계정을 생성합니다.
 
 ```sql
-CREATE USER 'hj@%' IDENTIFIED BY 'Ligthin12@';
+CREATE USER 'hj@%' IDENTIFIED BY '1234';
 GRANT ALL PRIVILEGES ON *.* TO 'hj@%';
 ```
 
